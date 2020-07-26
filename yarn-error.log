@@ -1,0 +1,34 @@
+Arguments: 
+  /usr/bin/node /usr/local/bin/yarn add bootstrap reactstrap
+
+PATH: 
+  /home/florent/.local/share/virtualenvs/makina-Yg3wHmWO/bin:/home/florent/.symfony/bin:/home/florent/.symfony/bin:/usr/share/php:/home/florent/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.18.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/bootstrap: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND http
+      at ClientRequest.onError (/usr/local/lib/node_modules/yarn/lib/cli.js:152234:17)
+      at Object.onceWrapper (events.js:422:26)
+      at ClientRequest.emit (events.js:315:20)
+      at Socket.socketErrorListener (_http_client.js:426:9)
+      at Socket.emit (events.js:315:20)
+      at emitErrorNT (internal/streams/destroy.js:92:8)
+      at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

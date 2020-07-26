@@ -1,0 +1,3 @@
+Ce projet est un test dont le but est de créer un mini-projet de dép d'annonces.
+Il utilise les technologies Django-Rest-Framework, ReactJs.
+Attention, ce n'est que le début d'un projet auquel il manque beaucoup de choses et le code n'est pas forcément une référence...
